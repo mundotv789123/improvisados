@@ -1,4 +1,4 @@
-#Atenção
+Atenção
 não me responsabilizo por danos que esse codigo possa causar ao seu sistema
 
 esse codigo foi adaptado apenas no caso de migração de subdominios salvos no cloudflare para o painel pterodactyl
