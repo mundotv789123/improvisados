@@ -11,7 +11,7 @@ import org.json.JSONObject;
 public class Main {
 
     public static void main(String[] args) throws SQLException {
-        //abra o arquivo API.java para colocar todas as informações de api nela
+        //abra o arquivo CONFIG.java para colocar todas as informações nela
         CloudFlareAPI cf_api = new CloudFlareAPI(CONFIG.CF_KEY, CONFIG.CF_EMAIL);
         MySQL mysql = new MySQL(CONFIG.SQL_DATABASE, CONFIG.SQL_PASSWORD, CONFIG.SQL_IP, CONFIG.SQL_USERNAME);
         for (String zone_id : CONFIG.ZONES_IDS) {
